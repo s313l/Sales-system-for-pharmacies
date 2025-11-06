@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- تم تحديث العنوان بناءً على طلبك -->
+    <title>نظام مبيعات للصيدليات</title>
+    <!-- تحميل Tailwind CSS للتحكم بالتنسيق -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* هذه الأنماط تضمن أن الإطار يملأ الشاشة بالكامل 
+          بدون أي هوامش أو أشرطة تمرير إضافية على الصفحة الرئيسية.
+        */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* لمنع ظهور أشرطة تمرير مزدوجة */
+        }
+    </style>
+</head>
+<body class="h-full">
+    <!-- 
+      هذا هو عنصر iframe الذي سيعرض الموقع المطلوب.
+      - src: يحدد عنوان URL للموقع الذي نريد تضمينه.
+      - class "w-full h-full border-0":
+        - w-full: يجعل العرض 100% من الشاشة.
+        - h-full: يجعل الارتفاع 100% من الشاشة.
+        - border-0: يزيل أي حدود حول الإطار.
+    -->
+    <iframe 
+        src="https://preview--pharmacy-inventory-buddy.lovable.app/" 
+        class="w-full h-full border-0"
+        title="الموقع المُضمن">
+    </iframe>
+</body>
+</html>
+
+
